@@ -1,8 +1,6 @@
 server: 
   port: 8890
 spring:
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration 
   profiles:
     active: dev,mysql
   datasource:
@@ -18,4 +16,4 @@ spring:
   data: 
     rest: 
       basePath: /api
-
+      
