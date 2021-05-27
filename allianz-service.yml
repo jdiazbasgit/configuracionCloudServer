@@ -16,4 +16,5 @@ spring:
   data: 
     rest: 
       basePath: /api
+mensaje: Estamos en un curso
       
