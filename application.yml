@@ -5,6 +5,11 @@ spring:
     url: jdbc:mysql://188.127.171.217:3306/empleados?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: curso
     password: Cursocurso1;
+    server: 
+  port: 8890
+  data: 
+    rest: 
+      basePath: /api
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: true
