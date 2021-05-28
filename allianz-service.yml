@@ -2,6 +2,6 @@ server:
   port: 8890
   data: 
     rest: 
-      basePath: /api-allianz
+      basePath: /api
 mensaje-service: Estamos en un curso service
       
