@@ -1,5 +1,16 @@
 server: 
   port: 8891
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/empleados?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: curso
+    password: Cursocurso1;
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      use-new-id-generator-mappings: false
 allianz:
   concierto:
     sonido:
@@ -11,4 +22,3 @@ allianz:
       instrumentos-hombreombreorquesta:
       - Trompeta
       - Guitarra
-  
