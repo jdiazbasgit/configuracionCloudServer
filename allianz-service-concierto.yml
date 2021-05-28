@@ -6,14 +6,3 @@ allianz:
       guitarra: tlan, tlan, tlan en yml
       tambor: pom, pom,, pom en yml
       trompeta: tuuu, tuuu, tuu en yml
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/empleados?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: curso
-    password: Cursocurso1;
-  jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
-    show-sql: true
-    hibernate:
-      use-new-id-generator-mappings: false
